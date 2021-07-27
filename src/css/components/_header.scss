@@ -1,0 +1,22 @@
+.header {
+  height: 100vh;
+  background-image: url(../images/Header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 70%;
+  &__container {
+      height: 100%;
+    @include flex(center, flex-start, column);
+  }
+  &__title {
+    font-family: $main-font;
+    @include text($H800, 700, $white);
+  }
+  &__text {
+    font-family: $main-font;
+    @include text($H500, 400, $white);
+    padding-bottom: 50px;
+    padding-right: 150px;
+    border-bottom: 1px solid $line;
+  }
+}

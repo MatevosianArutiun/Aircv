@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap');
+
+
+// // Core
+
+@import "./core/vars";
+@import "./core/mixins";
+@import "./core/common";
+
+// // Common components
+@import "./components/common/_menu";
+@import "./components/common/logo";
+
+
+// // Components
+@import "./components/navigation";
+@import "./components/header";
