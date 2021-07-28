@@ -8,6 +8,9 @@
       height: 100%;
     @include flex(center, flex-start, column);
   }
+  &__content {
+    margin-bottom: 20px;
+  }
   &__title {
     font-family: $main-font;
     @include text($H800, 700, $white);
