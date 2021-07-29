@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 70%;
+  margin-bottom: 150px;
   &__container {
       height: 100%;
     @include flex(center, flex-start, column);

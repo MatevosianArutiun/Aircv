@@ -1,3 +1,8 @@
 .section-intro {
-    height: 100vh;
+    margin-bottom: 150px;
+    &__container {
+        @include flex(space-between, flex-start, row);
+        height: 100%;
+        width: 65%;
+    }
 }

@@ -1,0 +1,7 @@
+.intro-content {
+    width: 70%;
+    &__text {
+        @include text($H100, 400, $text-color);
+        font-family: $main-font;
+    }
+}

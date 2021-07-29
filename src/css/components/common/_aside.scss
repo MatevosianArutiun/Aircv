@@ -1,0 +1,12 @@
+.aside {
+    width: 30%;
+    &__title {
+        @include text($H700, 700, $title-color);
+        font-family: $main-font;
+    }
+    &__text {
+        @include text($H100, 400, $text-color);
+        font-family: $main-font;
+    }
+    
+}
