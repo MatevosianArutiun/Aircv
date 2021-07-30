@@ -1,0 +1,31 @@
+.experience-content {
+    width: 75%;
+    &__list {
+        @include flex(space-between, flex-start, row);
+    }
+    &__item {
+        background-color: $white;
+        padding: 35px 40px 35px 35px;
+        cursor: pointer;
+        transition: all 0.1s ease-in ;
+        &:hover {
+            background-color: $turquoise;
+        }
+        &:hover p {
+            @include text($H100, 400, $white);
+        }
+        &:hover h3 {
+            @include text($H400, 700, $white);
+        }
+    }
+    &__title {
+        @include text($H400, 700, $title-color);
+        font-family: $main-font;
+        margin-bottom: 20px;
+    }
+    &__text {
+        @include text($H100, 400, $text-color);
+        font-family: $main-font;
+        line-height: 1.4;
+    }
+}

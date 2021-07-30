@@ -8,19 +8,19 @@
     &__percent {
         @include text($H10, 400, $text-color);
     }
-    &__indicator_one {
+    &__indicator--one {
         border: 2px solid $turquoise;
         width: 87%;
     }
-    &__indicator_two {
+    &__indicator--two {
         border: 2px solid $turquoise;
         width: 96%;
     }
-    &__indicator_three {
+    &__indicator--three {
         border: 2px solid $turquoise;
         width: 52%;
     }
-    &__indicator_four {
+    &__indicator--four {
         border: 2px solid $turquoise;
         width: 77%;
     }
