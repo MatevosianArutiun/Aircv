@@ -1,0 +1,31 @@
+.progress {
+    &__title {
+        @include flex(space-between, center, row);
+        margin-bottom: 10px;
+        @include text($H10, 700, $title-color);
+        font-family: $main-font;
+    }
+    &__percent {
+        @include text($H10, 400, $text-color);
+    }
+    &__indicator_one {
+        border: 2px solid $turquoise;
+        width: 87%;
+    }
+    &__indicator_two {
+        border: 2px solid $turquoise;
+        width: 96%;
+    }
+    &__indicator_three {
+        border: 2px solid $turquoise;
+        width: 52%;
+    }
+    &__indicator_four {
+        border: 2px solid $turquoise;
+        width: 77%;
+    }
+    &__indicator-full {
+        background-color: $line-progress;
+        margin-bottom: 20px;
+    }
+}

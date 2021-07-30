@@ -1,7 +1,15 @@
 .intro-content {
-    width: 70%;
+    width: 75%;
     &__text {
         @include text($H100, 400, $text-color);
         font-family: $main-font;
+    }
+
+    &__text:first-child {
+        margin-bottom: 30px;
+    }
+
+    &__text:nth-last-child(2) {
+        margin-bottom: 50px;
     }
 }
