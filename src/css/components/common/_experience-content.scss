@@ -11,12 +11,21 @@
         &:hover {
             background-color: $turquoise;
         }
+        &:hover svg {
+            fill: $white;
+        }
         &:hover p {
             @include text($H100, 400, $white);
         }
         &:hover h3 {
             @include text($H400, 700, $white);
         }
+    }
+    &__icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        fill: $text-color;
     }
     &__title {
         @include text($H400, 700, $title-color);
