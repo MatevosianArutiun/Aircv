@@ -1,0 +1,8 @@
+.section-contacts {
+    padding-top: 100px;
+    background-color: $background-color;
+    &__container {
+        @include flex(space-between, center, row);
+        padding-bottom: 100px;
+    }
+}

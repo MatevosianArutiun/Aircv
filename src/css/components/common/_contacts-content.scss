@@ -1,0 +1,19 @@
+.contacts-content {
+    width: 75%;
+    @include flex(space-between, center, row);
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
+    &__title {
+        font-family: $main-font;
+        @include text($H50, 700, $title-color);
+        margin-bottom: 20px;
+    }
+    &__link {
+        @include text($H50, 400, $text-color);
+        transition: all 0.2s linear;
+        &:hover {
+            @include text($H50, 400, $title-color);
+        }
+    }
+}
