@@ -1,7 +1,6 @@
-.section-intro {
-    margin-bottom: 100px;
+.section-works {
     &__container {
         @include flex(space-between, flex-start, row);
-        height: 100%;
+        margin-bottom: 150px;
     }
 }
