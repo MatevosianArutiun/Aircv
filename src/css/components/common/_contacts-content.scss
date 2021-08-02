@@ -10,6 +10,7 @@
         margin-bottom: 20px;
     }
     &__link {
+        font-family: $main-font;
         @include text($H50, 400, $text-color);
         transition: all 0.2s linear;
         &:hover {
