@@ -1,5 +1,4 @@
 .aside {
-    margin-right: 50px;
     @include flex(center, flex-end, column);
     &__title {
         @include text($H700, 700, $title-color);

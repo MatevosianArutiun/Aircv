@@ -6,27 +6,22 @@
         @include flex(center, center, row);
     }
     &__row--top {
-        // height: 60%;
         width: 100%;
     }
     &__row--bottom {
-        // height: 40%;
         width: 100%;
     }
     &__row:not(:last-child) {
         margin-bottom: 5px;
     }
     &__col--large {
-        // height: 100%;
         width: 70%;
         margin-right: 5px;
     }
     &__col--small {
-        // height: 100%;
         width: 30%;
     }
     &__col--bottom {
-        // height: 100%;
         width: 33%;
     }
     &__col--bottom:not(:last-child) {
@@ -34,6 +29,6 @@
     }
     &__image-wrapper {
         cursor: pointer;
-        @include padding-hack(30%, cover);
+        @include padding-hack(29%, cover);
     }
 }
