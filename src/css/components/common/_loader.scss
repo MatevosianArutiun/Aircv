@@ -11,6 +11,9 @@
     top: 0;
     bottom: 0;
     right: 0;
+    background-image: url(../images/loader_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     // display: none;
     &--noactive {
       display: none;
@@ -19,7 +22,6 @@
     &__item {
       width: 30px;
       height: 30px;
-      background: #f583a1;
       border-radius: 50%;
       background-color: $turquoise;
       margin: 7px;
@@ -46,7 +48,7 @@
         }
         50%,
         75% {
-          transform: scale(2.5);
+          transform: scale(3.5);
         }
         78%,
         100% {
