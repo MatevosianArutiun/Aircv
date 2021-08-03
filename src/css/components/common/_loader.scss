@@ -1,5 +1,5 @@
 .loader {
-    @include flex(center, center, column);
+    @include flex(center, center, row);
     height: 100vh;
     width: 100vw;
     overflow: hidden;
@@ -24,7 +24,7 @@
       height: 30px;
       border-radius: 50%;
       background-color: $turquoise;
-      margin: 7px;
+      margin: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -58,3 +58,5 @@
     }
   }
   
+
+
