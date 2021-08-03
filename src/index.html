@@ -11,15 +11,17 @@
 
 <body>
   //= templates/loader.html
-  //= templates/navigation.html
-  //= templates/header.html
-  <main>
-    //= templates/intro.html
-    //= templates/experience.html
-    //= templates/works.html
-    //= templates/contact.html
-  </main>
-  //= templates/footer.html
+  <div id="fullpage" class="fullpage">
+    //= templates/navigation.html
+    //= templates/header.html
+    <main id="main" class="main">
+      //= templates/intro.html
+      //= templates/experience.html
+      //= templates/works.html
+      //= templates/contact.html
+    </main>
+    //= templates/footer.html
+  </div>
 
 
   <script src="js/main.js"></script>

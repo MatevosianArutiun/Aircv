@@ -1,7 +1,7 @@
 export const showLoading = () => {
-    const $main = document.querySelector("#main");
+    const $fullpage = document.querySelector("#fullpage");
     const displayNone = () => {
-      $main.classList.remove("main");
+      $fullpage.classList.remove("fullpage");
     };
     setTimeout(displayNone, 3350);
   
